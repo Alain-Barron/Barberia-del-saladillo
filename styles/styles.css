@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 339px;
+}
+
+
+h2{
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+}
+
+h3{
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.section-contacto{
+    padding-top: 8px;
+}
+
+footer {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.copy {
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    header{
+        padding-bottom: 0px;
+    }
+    h2{
+        font-family: 'Russo One', sans-serif;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    h3{
+        font-family: 'Russo One', sans-serif;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 15px;
+    }
+
+    .copy{
+        font-size: 15px;
+    }
+}
